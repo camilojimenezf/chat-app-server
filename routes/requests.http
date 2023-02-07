@@ -25,3 +25,12 @@ x-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2M2Q2ZGE3ODdiOWNmYjg5Yz
 {
 
 }
+
+### Get usuarios
+GET http://localhost:3000/api/usuarios
+content-type: application/json
+x-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2M2Q2ZGE3ODdiOWNmYjg5YzA5NWRlMWYiLCJpYXQiOjE2NzU3MjU0MDYsImV4cCI6MTY3NTgxMTgwNn0.7N1hnUq4tCWihO-iaRpBdWsUdRcgC77NUokej-5h3GM
+
+{
+
+}
