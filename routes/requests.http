@@ -3,8 +3,8 @@ POST http://localhost:3000/api/login/new
 content-type: application/json
 
 {
-  "nombre": "camilo2",
-  "email": "camilo2@gmail.com",
+  "nombre": "elon",
+  "email": "elon@gmail.com",
   "password": "123123"
 }
 
@@ -13,7 +13,7 @@ POST http://localhost:3000/api/login
 content-type: application/json
 
 {
-  "email": "camilo2@gmail.com",
+  "email": "elon@gmail.com",
   "password": "123123"
 }
 
@@ -29,7 +29,16 @@ x-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2M2Q2ZGE3ODdiOWNmYjg5Yz
 ### Get usuarios
 GET http://localhost:3000/api/usuarios
 content-type: application/json
-x-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2M2Q2ZGE3ODdiOWNmYjg5YzA5NWRlMWYiLCJpYXQiOjE2NzU3MjU0MDYsImV4cCI6MTY3NTgxMTgwNn0.7N1hnUq4tCWihO-iaRpBdWsUdRcgC77NUokej-5h3GM
+x-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2M2RlYWNiMmM0M2IwMzdiNDdkMTEzMWMiLCJpYXQiOjE2NzU4OTg2MTEsImV4cCI6MTY3NTk4NTAxMX0.VP2byooHvpMq0k8M5Gt6nl7RLw34_zhq_7hHJ1pqPBs
+
+{
+
+}
+
+### Get mensajes
+GET http://localhost:3000/api/mensajes/63d6d71512f2178ca8387824
+content-type: application/json
+x-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2M2RlYWNiMmM0M2IwMzdiNDdkMTEzMWMiLCJpYXQiOjE2NzU4OTg2MTEsImV4cCI6MTY3NTk4NTAxMX0.VP2byooHvpMq0k8M5Gt6nl7RLw34_zhq_7hHJ1pqPBs
 
 {
 
